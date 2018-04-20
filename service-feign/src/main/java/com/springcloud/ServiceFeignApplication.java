@@ -12,9 +12,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableFeignClients
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-public class FeignApplication {
+public class ServiceFeignApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FeignApplication.class, args);
+		SpringApplication.run(ServiceFeignApplication.class, args);
 	}
 }
